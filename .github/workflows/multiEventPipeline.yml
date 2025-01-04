@@ -1,9 +1,9 @@
 name: "multi event pipeline" #event name
 
 on:
-   push:       #event: when push on master
-    branches:
-        -master
+    push:
+        branches:
+            - master
 
 
 jobs:
