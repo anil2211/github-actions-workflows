@@ -9,6 +9,7 @@ on:
     pull_request:
         branches:
             - master
+    workflow_dispatch:        
 jobs:
     # job 1
     on-push:      #job name
